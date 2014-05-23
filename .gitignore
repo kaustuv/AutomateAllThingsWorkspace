@@ -1,5 +1,4 @@
-# Node #
-###################
+
 
 lib-cov
 *.seed
@@ -13,11 +12,17 @@ lib-cov
 pids
 logs
 results
-build/
-.sass-cache/
 
+# Node #
+###################
 npm-debug.log
 node_modules
+
+# Build Artifacts #
+###################
+build
+dist
+.sass-cache
 
 # Sublime #
 ###################
